@@ -22,6 +22,11 @@ $(document).ready(function () {
         window.location.hash = hash;
       }
     );
+    if ($(window).width() <= 767) {
+      $(".header-navbar").slideUp(300);
+      $(".menu-btn").removeClass("active");
+      $("body").removeClass("overflow");
+    }
   });
 
   /*************** Fixed Header ***************/
