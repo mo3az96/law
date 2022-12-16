@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="764" viewBox="0 0 1366 764">
+    <defs>
+      <linearGradient id="linear-gradient" x1="0.76" y1="0.041" x2="0" y2="1.119" gradientUnits="objectBoundingBox">
+        <stop offset="0" stop-color="#c08700"/>
+        <stop offset="1" stop-color="#d5a42f"/>
+      </linearGradient>
+    </defs>
+    <path id="krakenimages-376KN_ISplE-unsplash" d="M0,0H1366V764s-333.5-66.214-675-66.214S0,764,0,764Z" fill="url(#linear-gradient)"/>
+  </svg>
+  

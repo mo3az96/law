@@ -1,0 +1,40 @@
+<svg id="Component_5_1" data-name="Component 5 – 1" xmlns="http://www.w3.org/2000/svg" width="206" height="125" viewBox="0 0 206 125">
+  <g id="vuesax_broken_tick-circle" data-name="vuesax/broken/tick-circle" transform="translate(70 38)">
+    <g id="tick-circle">
+      <path id="Vector" d="M5.667,11.333A28.333,28.333,0,1,0,28.333,0,27.951,27.951,0,0,0,16.915,2.408" transform="translate(5.667 5.667)" fill="none" stroke="#c08700" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" />
+      <path id="Vector-2" data-name="Vector" d="M0,3.2,3.173,0" transform="translate(42.5 26.208)" fill="none" stroke="#c08700" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" />
+      <path id="Vector-3" data-name="Vector" d="M0,0,7.763,7.792,14.988.6" transform="translate(22.327 34)" fill="none" stroke="#c08700" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" />
+      <path id="Vector-4" data-name="Vector" d="M0,0H68V68H0Z" fill="none" opacity="0" />
+    </g>
+  </g>
+  <g id="Ellipse_857" data-name="Ellipse 857" transform="translate(184 3)" fill="none" stroke="#c08700" stroke-width="1" opacity="0.17">
+    <circle cx="11" cy="11" r="11" stroke="none" />
+    <circle cx="11" cy="11" r="10.5" fill="none" />
+  </g>
+  <g id="Ellipse_858" data-name="Ellipse 858" transform="translate(174 71)" fill="none" stroke="#c08700" stroke-width="1" opacity="0.17">
+    <circle cx="8" cy="8" r="8" stroke="none" />
+    <circle cx="8" cy="8" r="7.5" fill="none" />
+  </g>
+  <g id="Ellipse_859" data-name="Ellipse 859" transform="translate(0 81)" fill="none" stroke="#c08700" stroke-width="1" opacity="0.17">
+    <circle cx="8" cy="8" r="8" stroke="none" />
+    <circle cx="8" cy="8" r="7.5" fill="none" />
+  </g>
+  <g id="Ellipse_856" data-name="Ellipse 856" transform="translate(24)" fill="none" stroke="#c08700" stroke-width="1" opacity="0.17">
+    <circle cx="8" cy="8" r="8" stroke="none" />
+    <circle cx="8" cy="8" r="7.5" fill="none" />
+  </g>
+  <g id="Group_1572" data-name="Group 1572" transform="translate(-569 -251)">
+    <g id="Ellipse_861" data-name="Ellipse 861" transform="translate(635 285)" fill="none" stroke="#c08700" stroke-width="1" opacity="0.24">
+      <circle cx="38" cy="38" r="38" stroke="none" />
+      <circle cx="38" cy="38" r="37.5" fill="none" />
+    </g>
+    <g id="Ellipse_862" data-name="Ellipse 862" transform="translate(628 278)" fill="none" stroke="#c08700" stroke-width="1" opacity="0.13">
+      <circle cx="45" cy="45" r="45" stroke="none" />
+      <circle cx="45" cy="45" r="44.5" fill="none" />
+    </g>
+    <g id="Ellipse_863" data-name="Ellipse 863" transform="translate(620 270)" fill="none" stroke="#c08700" stroke-width="1" opacity="0.07">
+      <circle cx="53" cy="53" r="53" stroke="none" />
+      <circle cx="53" cy="53" r="52.5" fill="none" />
+    </g>
+  </g>
+</svg>
