@@ -41,6 +41,34 @@
     left: 125%;
   }
 }
+@font-face {
+  font-family: "Almarai";
+  src: url("../fonts/Almarai/Almarai-Light.woff2") format("woff2"), url("../fonts/Almarai/Almarai-Light.woff") format("woff"), url("../fonts/Almarai/Almarai-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Almarai";
+  src: url("../fonts/Almarai/Almarai-Regular.woff2") format("woff2"), url("../fonts/Almarai/Almarai-Regular.woff") format("woff"), url("../fonts/Almarai/Almarai-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Almarai";
+  src: url("../fonts/Almarai/Almarai-Bold.woff2") format("woff2"), url("../fonts/Almarai/Almarai-Bold.woff") format("woff"), url("../fonts/Almarai/Almarai-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Almarai";
+  src: url("../fonts/Almarai/Almarai-ExtraBold.woff2") format("woff2"), url("../fonts/Almarai/Almarai-ExtraBold.woff") format("woff"), url("../fonts/Almarai/Almarai-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
 body {
   position: relative;
   font-family: Almarai;
@@ -94,34 +122,6 @@ img {
   -ms-interpolation-mode: nearest-neighbor;
 }
 
-@font-face {
-  font-family: "Almarai";
-  src: url("../fonts/Almarai/Almarai-Light.woff2") format("woff2"), url("../fonts/Almarai/Almarai-Light.woff") format("woff"), url("../fonts/Almarai/Almarai-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Almarai";
-  src: url("../fonts/Almarai/Almarai-Regular.woff2") format("woff2"), url("../fonts/Almarai/Almarai-Regular.woff") format("woff"), url("../fonts/Almarai/Almarai-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Almarai";
-  src: url("../fonts/Almarai/Almarai-Bold.woff2") format("woff2"), url("../fonts/Almarai/Almarai-Bold.woff") format("woff"), url("../fonts/Almarai/Almarai-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Almarai";
-  src: url("../fonts/Almarai/Almarai-ExtraBold.woff2") format("woff2"), url("../fonts/Almarai/Almarai-ExtraBold.woff") format("woff"), url("../fonts/Almarai/Almarai-ExtraBold.ttf") format("truetype");
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
-}
 .header-nav {
   display: flex;
   align-items: center;
