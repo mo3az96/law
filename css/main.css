@@ -1763,7 +1763,6 @@ header {
   transition: all 0.3s ease-in-out;
 }
 .inner-body header {
-  position: relative;
   background-image: url(../images/patterns/header_curve.svg);
   background-position: bottom;
   background-size: cover;
@@ -1892,6 +1891,15 @@ header.header-scroll.fixsedt {
   color: #c08700;
 }
 
+.inner-body {
+  padding-top: 225px;
+}
+@media (max-width: 1199px) {
+  .inner-body {
+    padding-top: 80px;
+  }
+}
+
 .sec-title {
   position: relative;
   z-index: 2;
@@ -1913,6 +1921,9 @@ header.header-scroll.fixsedt {
 .contact-sec .sec-title {
   margin: 0;
   margin-bottom: 65px;
+}
+.page-content .sec-title {
+  margin-bottom: 40px;
 }
 .sec-title::before {
   width: 29px;
@@ -1939,6 +1950,9 @@ header.header-scroll.fixsedt {
   }
   .contact-sec .sec-title {
     margin: auto;
+    margin-bottom: 25px;
+  }
+  .page-content .sec-title {
     margin-bottom: 25px;
   }
 }
@@ -2046,6 +2060,18 @@ header.header-scroll.fixsedt {
   .inner-search {
     text-align: center;
   }
+}
+
+.page-desc p {
+  line-height: 2;
+  font-size: 16px;
+  color: #8a8a8a;
+}
+
+.contact-form {
+  margin: auto;
+  width: 100%;
+  max-width: 500px;
 }
 
 .job-page-head {

@@ -7,36 +7,36 @@ $(document).ready(function () {
     once: true,
   });
   /*************** Landing Header ***************/
-  new bootstrap.ScrollSpy(document.body, {
-    target: "#fixedNavbar",
-  });
-  $("#fixedNavbar>ul>li>a[href^='#']").on("click", function (e) {
-    e.preventDefault();
-    var hash = this.hash;
-    $("html, body").animate(
-      {
-        scrollTop: $(this.hash).offset().top,
-      },
-      500,
-      function () {
-        window.location.hash = hash;
-      }
-    );
-    if ($(window).width() <= 767) {
-      $(".header-navbar").slideUp(300);
-      $(".menu-btn").removeClass("active");
-      $("body").removeClass("overflow");
-    }
-  });
+  // new bootstrap.ScrollSpy(document.body, {
+  //   target: "#fixedNavbar",
+  // });
+  // $("#fixedNavbar>ul>li>a[href^='#']").on("click", function (e) {
+  //   e.preventDefault();
+  //   var hash = this.hash;
+  //   $("html, body").animate(
+  //     {
+  //       scrollTop: $(this.hash).offset().top,
+  //     },
+  //     500,
+  //     function () {
+  //       window.location.hash = hash;
+  //     }
+  //   );
+  //   if ($(window).width() <= 767) {
+  //     $(".header-navbar").slideUp(300);
+  //     $(".menu-btn").removeClass("active");
+  //     $("body").removeClass("overflow");
+  //   }
+  // });
 
   /*************** Fixed Header ***************/
   var prevScroll = $(window).scrollTop();
 
-  $(this).scrollTop() >= 250
+  $(this).scrollTop() >= 300
     ? $("header").addClass("header-scroll")
     : $("header").removeClass("header-scroll fixsedt");
   $(window).scroll(function () {
-    $(this).scrollTop() >= 250
+    $(this).scrollTop() >= 300
       ? $("header").addClass("header-scroll")
       : $("header").removeClass("header-scroll fixsedt");
 
